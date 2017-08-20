@@ -1,0 +1,82 @@
+@font-face {
+  font-family: magneto;
+  src: url(../fonts/magneto.TTF);
+}
+
+body{
+  padding-top: 170px;
+  background: rgb(100, 170, 143);
+}
+
+
+.altura-primer-nav{
+  height: 40px;
+}
+
+header > div > a > img{
+  display: inline;
+}
+
+header > div > a > h3{
+  display: inline;
+  color: white;
+  font-family: magneto;
+}
+
+header > div > a{
+  text-decoration: none!important;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.altura-sociales{
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.centrar-botones-nav{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.color-menu-nav{
+  background: rgb(100, 170, 143)!important;
+}
+
+.nav-pills > li.active > a{
+  background: black!important;
+}
+
+@media (min-width: 421px) and (max-width:768px) {
+
+  header > div.centrado {
+    text-align: center;
+  }
+
+  header > div > div{
+    text-align: center;
+  }
+
+  body{
+    padding-top: 180px;
+  }
+
+}
+
+@media (max-width:420px) {
+
+  header > div.centrado{
+    text-align: center;
+  }
+
+  header > div > div{
+    text-align: center;
+  }
+
+  body{
+    padding-top: 180px;
+  }
+
+}
