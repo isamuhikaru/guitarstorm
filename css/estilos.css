@@ -49,6 +49,11 @@ header > div > a{
   background: black!important;
 }
 
+aside h2{
+  text-align: center;
+}
+
+
 @media (min-width: 421px) and (max-width:768px) {
 
   header > div.centrado {
@@ -61,6 +66,11 @@ header > div > a{
 
   body{
     padding-top: 180px;
+  }
+
+  .tamano-buscar{
+    max-width: 400px;
+    margin: 0 auto;
   }
 
 }
