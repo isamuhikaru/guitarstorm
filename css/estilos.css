@@ -92,6 +92,27 @@ aside h2{
   opacity: 1;
 }
 
+.color-pie-de-pagina{
+  background: black;
+}
+
+.no-tapar-footer{
+  height: 30px;
+}
+
+@media (min-width: 769px) {
+
+  .centrado-padre{
+    display: flex;
+  }
+
+  .centrado-hijo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}
 
 @media (min-width: 421px) and (max-width:768px) {
 
