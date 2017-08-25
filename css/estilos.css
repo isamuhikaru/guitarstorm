@@ -100,6 +100,31 @@ aside h2{
   height: 30px;
 }
 
+.no-subrayado{
+  text-decoration-line: none!important;
+}
+
+.well{
+  margin-bottom: 0
+}
+
+.well p{
+  margin-bottom: auto;
+}
+
+hr{
+border: 1px dashed rgb(100, 170, 143);
+}
+
+form, .padding-tabla{
+  padding:20px;
+}
+
+table, .table-responsive{
+  margin-bottom: auto!important;
+}
+
+
 @media (min-width: 769px) {
 
   .centrado-padre{
