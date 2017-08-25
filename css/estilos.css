@@ -124,6 +124,17 @@ table, .table-responsive{
   margin-bottom: auto!important;
 }
 
+.centrado-compartir-imagen{
+  margin: 0 auto!important;
+}
+
+.centrado-compartir-comentario{
+  margin: 0 auto!important;
+}
+
+.centrado-articulo-imagen{
+  text-align: center;
+}
 
 @media (min-width: 769px) {
 
