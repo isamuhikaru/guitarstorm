@@ -190,3 +190,13 @@ table, .table-responsive {
     padding-top: 180px;
   }
 }
+
+@media (min-width: 0px) and (max-width:768px) and (orientation: landscape){
+   .desaparecer{
+       display: none!important;
+   }
+
+   body{
+     padding-top: 50px!important;
+   }
+}
